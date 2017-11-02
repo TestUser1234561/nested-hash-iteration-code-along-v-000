@@ -16,7 +16,7 @@ require 'pry'
 
 def remove_strawberry(contacts)
   contacts.each do |person|
-    puts person[:favorite_ice_cream_flavors]
+    puts person
   end
   contacts
 end
