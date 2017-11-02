@@ -16,6 +16,6 @@ require 'pry'
 
 def remove_strawberry(contacts)
   contacts.each do |person|
-    person[:favorite_ice_cream_flavors] = person[:favorite_ice_cream_flavors].select {|x| x != "strawberry"}
+    person[:favorite_ice_cream_flavors].select {|x| x != "strawberry"}
   end
 end
